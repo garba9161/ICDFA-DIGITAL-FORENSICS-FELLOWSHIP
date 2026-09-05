@@ -20,12 +20,11 @@ Foundational computer literacy, terminal proficiency, file system navigation, an
 
 * **Overview:** Establishment of dedicated lab directory structures (`/evidence`, `/analysis`, `/recovered`, `/reports`), environment verification, initial tool dependency checks, and command-line file management.
 * **Lab Deliverables:**
-* `CIP_B101_Lab1a`: Number Systems, ASCII, Timestamps, and Data Representation.
-* `CIP_B101_Lab1b`: PC Systems Fundamentals, Disk Sectors, and Partition Analysis (`diskpart`, `fdisk`, `parted`).
-* `CIP_B101_Lab1c`: Windows Command Line for Digital Forensics (`systeminfo`, `icacls`, batch automation).
-* `CIP_B101_Lab2a`: Linux Command Line for Digital Forensics (`stat`, `find`, `tree`, `grep`, network socket triage).
-* `CIP_B101_Lab2b`: Advanced Linux Command Line for Digital Forensics (`dd`, standard streams `2>&1`, cross-platform `ncat` transfers).
-
+* `CIP_B101_Lab1a`: Number Systems, ASCII, Timestamps, and Data Representation. [View Report](<./Course-01-Basic-Computer-Skills/Reports/CIP_B101Lab 1a Ahmed Garba Assignment.pdf>)
+* `CIP_B101_Lab1b`: PC Systems Fundamentals, Disk Sectors, and Partition Analysis (`diskpart`, `fdisk`, `parted`). [View Report](<./Course-01-Basic-Computer-Skills/Reports/CIP_B101Lab 1a Ahmed Garba Assignment.pdf>)
+* `CIP_B101_Lab1c`: Windows Command Line for Digital Forensics (`systeminfo`, `icacls`, batch automation).[View Report](<./Course-01-Basic-Computer-Skills/Reports/CIP_B101Lab 1c Ahmed Garba Assignment.pdf>)
+* `CIP_B101_Lab2a`: Linux Command Line for Digital Forensics (`stat`, `find`, `tree`, `grep`, network socket triage).[View Report](<./Course-01-Basic-Computer-Skills/Reports/CIP_B101Lab 2a Ahmed Garba Assignment.pdf>)
+* `CIP_B101_Lab2b`: Advanced Linux Command Line for Digital Forensics (`dd`, standard streams `2>&1`, cross-platform `ncat` transfers). [View Report](<./Course-01-Basic-Computer-Skills/Reports/CIP_B101Lab 2b Ahmed Garba Assignment.pdf>)
 
 
 ---
@@ -46,25 +45,24 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 
 
-📄 **Autopsy GUI Case Analysis & Evidence Verification (Lab 1):** `[View Report]`
+📄 **Autopsy GUI Case Analysis & Evidence Verification (Lab 1):**
 
 * **Overview:** Graphical forensic case creation (`Lab1_Autopsy`), ingest module configuration, deleted file filtering, keyword search indexing for financial records (`INCOME.XLS`), artifact tagging, and automated report generation.
 
 
-
-📄 **Multi-Vector Reconstruction & Cryptographic Hash Verification (Lab 1):** `[View Report]`
+📄 **Multi-Vector Reconstruction & Cryptographic Hash Verification (Lab 1):**
 
 * **Overview:** Parallel extraction of target evidence (`INCOME.XLS`) using `icat` inode extraction (inode 13), `blkcat` sector concatenation loops (sectors 285–311), and read-only loop mounting (`losetup`), verified via byte-for-byte MD5 (`6a2e65afc5af4fc5f9da2859df134eac`) hash comparison matrices.
 
+  [View Lab 1 Report](<./Course-02-Computer-Digital-Forensics/Reports/Lab 1 SBT-DF202.pdf>)
 
-
-📄 **Forensic USB Acquisition, Hash Verification & Evidence Validation (Lab 2):** `[View Report]`
+📄 **Forensic USB Acquisition, Hash Verification & Evidence Validation (Lab 2):** [View Report](<./Course-02-Computer-Digital-Forensics/Reports/Lab 2 SBT-DF202 Garba.pdf>)
 
 * **Overview:** Physical raw drive imaging of SanDisk Cruzer Blade (`\\.\PHYSICALDRIVE1`) using Exterro FTK Imager v8.3.0.27 to `.001` container format. Complete 100% hash match verification for MD5 (`7354741c934c2eb44fc25506130f21f0`) and SHA-1 (`db0fbb61b1ebe27277b9fe4ebf55d14d497cb143`) across all 7,864,320 physical sectors.
 
 
 
-📄 **Data Carving, Hex Analysis & File Recovery (Lab 3):** `[View Report]`
+📄 **Data Carving, Hex Analysis & File Recovery (Lab 3):** [View Report](<./Course-02-Computer-Digital-Forensics/Reports/Lab 3 SBT-DF202 Garba.pdf>)
 
 * **Overview:** Low-level binary pattern matching and raw data carving across corrupted file system metadata. Includes plain hex streaming (`xxd`) for header/footer signatures (`0xFFD8FFE1` / `0xFFD9`), OpenXML container extraction (`File_carving.docx`) via `binwalk` and `dd`, and rule-based automated carving from unallocated USB space (`usb_fat_carving.001`) via `scalpel` with `hashdeep` verification.
 
