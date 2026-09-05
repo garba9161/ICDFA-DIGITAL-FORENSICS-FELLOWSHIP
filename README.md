@@ -16,7 +16,7 @@ The curriculum spans six comprehensive modules covering basic computer and netwo
 
 Foundational computer literacy, terminal proficiency, file system navigation, and workspace preparation for forensic workstations.
 
-📄 **Workspace Configuration & Forensic Environment Setup:** `[View Report]`
+📄 **Workspace Configuration & Forensic Environment Setup:**
 
 * **Overview:** Establishment of dedicated lab directory structures (`/evidence`, `/analysis`, `/recovered`, `/reports`), environment verification, initial tool dependency checks, and command-line file management.
 * **Lab Deliverables:**
@@ -33,13 +33,13 @@ Foundational computer literacy, terminal proficiency, file system navigation, an
 
 Core principles of digital investigations, evidence handling procedures, file system architecture, and forensic reconstruction using command-line and GUI utilities.
 
-📄 **Digital Evidence Handling & Chain-of-Custody Framework (Lab 1):** `[View Report]`
+📄 **Digital Evidence Handling & Chain-of-Custody Framework (Lab 1):** 
 
 * **Overview:** Establishment of forensic isolation procedures, write-blocker verification, mini chain-of-custody documentation, and baseline cryptographic hashing (`md5sum`: `a117773bcf1fc88ec0ab8e0a349fbbcb`, `sha256sum`: `3ce8053e4f3d9c8ab98b3aadb2480685efb8e4980d34297b83bd5a09b1a7b122`) for raw disk evidence (`Ch01InChap01.dd`).
 
 
 
-📄 **Sleuth Kit (TSK) Command-Line Analysis & Artifact Recovery (Lab 1):** `[View Report]`
+📄 **Sleuth Kit (TSK) Command-Line Analysis & Artifact Recovery (Lab 1):** 
 
 * **Overview:** File system layout analysis (`fsstat`), directory enumeration (`fls`), inode metadata examination (`istat`), deleted file recovery (`icat` for inode 15 `letter1.txt`), raw sector dumps (`blkcat` sector 312), and unallocated space analysis (`blkls`).
 
@@ -65,6 +65,10 @@ Core principles of digital investigations, evidence handling procedures, file sy
 📄 **Data Carving, Hex Analysis & File Recovery (Lab 3):** [View Report](<./Course-02-Computer-Digital-Forensics/Reports/Lab 3 SBT-DF202 Garba.pdf>)
 
 * **Overview:** Low-level binary pattern matching and raw data carving across corrupted file system metadata. Includes plain hex streaming (`xxd`) for header/footer signatures (`0xFFD8FFE1` / `0xFFD9`), OpenXML container extraction (`File_carving.docx`) via `binwalk` and `dd`, and rule-based automated carving from unallocated USB space (`usb_fat_carving.001`) via `scalpel` with `hashdeep` verification.
+
+📄 **Steganography Analysis, Payload Embedding & Password Cracking (Lab 4):** [View Report](<./Course-02-Computer-Digital-Forensics/Reports/Lab 4 SBT-DF202 Garba.pdf>)
+
+* **Overview:** Hiding secret data inside image files (steganography) and recovering protected information. The lab involved inspecting a target cover image (`_tower_original_image_for_lab.bmp`), hiding a secret text file inside it using a password (`steghide embed`), and tracking how the image's digital fingerprint (MD5 hash) changed from `7f77e022...` to `95ca51e0...` after embedding. It also covered retrieving the hidden data (`steghide extract`) and using a password-cracking tool (`stegcracker`) with a wordlist (`rockyou.txt`) to automatically crack the protection and recover the passphrase (`1234`).
 
 ---
 
@@ -123,7 +127,8 @@ Core principles of digital investigations, evidence handling procedures, file sy
 │   └── Reports/
 │       ├── Lab 1 SBT-DF202.pdf
 │       ├── Lab 2 SBT-DF202 Garba.pdf
-│       └── Lab 3 SBT-DF202 Garba.pdf
+│       ├── Lab 3 SBT-DF202 Garba.pdf
+│       └── Lab 4 SBT-DF202 Garba.pdf
 ├── Course-03-Basic-Networking-Skills/
 │   └── Reports/
 ├── Course-04-Computer-Forensics-Case-Study/
