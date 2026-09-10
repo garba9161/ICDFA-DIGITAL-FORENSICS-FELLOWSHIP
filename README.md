@@ -75,11 +75,11 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 ### **Course 03: Basic Networking Skills for Digital Forensics (SBT-DF203)**
 
-📄 **HTTP Analysis Using Wireshark: Text Traffic (Lab 1):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25201%2520SBT-DF203%2520Garba.pdf)
+📄 **HTTP Analysis Using Wireshark: Text Traffic (Lab 1):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab1_SBT-DF203.pdf)
 
 **Overview:** Network traffic capture and packet encapsulation inspection of plaintext HTTP web sessions across local loopback (`lo`). Reconstructed TCP three-way handshake (`SYN` $\rightarrow$ `SYN-ACK` $\rightarrow$ `ACK`), extracted HTTP request headers (`GET /basic.html`, `User-Agent: curl/8.21.0`), evaluated server responses (`200 OK`, `Apache/2.4.68`), analyzed graceful connection closure (`FIN, ACK`), and verified packet file integrity using SHA-256 hashes (`c464a47532ee...`).
 
-📄 **HTTP Analysis Using Wireshark: Embedded Image Traffic (Lab 2):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25202%2520SBT-DF203%2520Garba.pdf)
+📄 **HTTP Analysis Using Wireshark: Embedded Image Traffic (Lab 2):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab2_SBT-DF203.pdf)
 
 **Overview:** Identification, extraction, and forensic reconstruction of embedded multimedia files contained within unencrypted HTTP packet streams. Analyzed multi-object HTTP conversations, tracked TCP sequence/acknowledgement offsets during binary payload transmission, and extracted embedded media files directly from raw pcapng captures for hash verification and evidence recovery.
 
