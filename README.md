@@ -131,6 +131,15 @@ Core principles of digital investigations, evidence handling procedures, file sy
 │       └── Lab 4 SBT-DF202 Garba.pdf
 ├── Course-03-Basic-Networking-Skills/
 │   └── Reports/
+│       ├── Lab 1 SBT-DF203 Garba.pdf
+│       ├── Lab 2 SBT-DF203 Garba.pdf
+│       ├── Lab 3 SBT-DF203 Garba.pdf
+│       ├── Lab 4 SBT-DF203 Garba.pdf
+│       ├── Lab 5 SBT-DF203 Garba.pdf
+│       ├── Lab 6 SBT-DF203 Garba.pdf
+│       ├── Lab 7 SBT-DF203 Garba.pdf
+│       ├── Lab 8 SBT-DF203 Garba.pdf
+│       └── Lab 9 SBT-DF203 Garba.pdf
 ├── Course-04-Computer-Forensics-Case-Study/
 │   └── Reports/
 ├── Course-05-Mobile-IoT-Forensics/
