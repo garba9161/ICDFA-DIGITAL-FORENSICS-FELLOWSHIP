@@ -83,7 +83,7 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 **Overview:** Identification, extraction, and forensic reconstruction of embedded multimedia files contained within unencrypted HTTP packet streams. Analyzed multi-object HTTP conversations, tracked TCP sequence/acknowledgement offsets during binary payload transmission, and extracted embedded media files directly from raw pcapng captures for hash verification and evidence recovery.
 
-📄 **SYN Flood Pattern Investigation Using TShark (Lab 3):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25203%2520SBT-DF203%2520Garba.pdf)
+📄 **SYN Flood Pattern Investigation Using TShark (Lab 3):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab3_SBT-DF203.pdf)
 
 **Overview:** Automated packet analysis and denial-of-service (DoS) forensic investigation using command-line TShark. Isolated TCP SYN flood attack patterns, evaluated half-open socket state metrics, analyzed source IP spoofing signatures, and filtered high-volume packet streams to construct incident timelines and impact assessments.
 
@@ -113,45 +113,6 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 ---
 
-### **Course 03: Basic Networking Skills for Digital Forensics (SBT-DF203)**
-
-📄 **HTTP Analysis Using Wireshark: Text Traffic (Lab 1):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25201%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Network traffic capture and packet encapsulation inspection of plaintext HTTP web sessions across local loopback (`lo`). Reconstructed TCP three-way handshake (`SYN` $\rightarrow$ `SYN-ACK` $\rightarrow$ `ACK`), extracted HTTP request headers (`GET /basic.html`, `User-Agent: curl/8.21.0`), evaluated server responses (`200 OK`, `Apache/2.4.68`), analyzed graceful connection closure (`FIN, ACK`), and verified packet file integrity using SHA-256 hashes (`c464a47532ee...`).
-
-📄 **HTTP Analysis Using Wireshark: Embedded Image Traffic (Lab 2):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25202%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Identification, extraction, and forensic reconstruction of embedded multimedia files contained within unencrypted HTTP packet streams. Analyzed multi-object HTTP conversations, tracked TCP sequence/acknowledgement offsets during binary payload transmission, and extracted embedded media files directly from raw pcapng captures for hash verification and evidence recovery.
-
-📄 **SYN Flood Pattern Investigation Using TShark (Lab 3):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25203%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Automated packet analysis and denial-of-service (DoS) forensic investigation using command-line TShark. Isolated TCP SYN flood attack patterns, evaluated half-open socket state metrics, analyzed source IP spoofing signatures, and filtered high-volume packet streams to construct incident timelines and impact assessments.
-
-📄 **SMTP Email Traffic Forensics (Lab 4):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25204%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Deep packet inspection of Simple Mail Transfer Protocol (SMTP) traffic streams. Reconstructed email headers (`Received`, `From`, `To`, `Message-ID`), extracted MIME-encoded attachments, analyzed mail relay hops, and verified email sender authentication parameters from raw network communications.
-
-📄 **ARP Poisoning Forensics (Lab 5):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25205%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Forensic analysis of Address Resolution Protocol (ARP) spoofing and Man-in-the-Middle (MitM) network attacks. Identified gratuitous ARP packet floods, mapped IP-to-MAC mapping discrepancies, detected duplicate MAC address anomalies, and documented session interception timelines across local subnets.
-
-📄 **Firewall Traffic Control and Forensic Verification (Lab 6):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25206%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Inspection and verification of network packet filtering mechanisms and firewall log streams. Analyzed active connection tracking tables, evaluated dropped vs. accepted packet flags, verified stateful packet inspection rules, and correlated system firewall logs with raw network packet captures.
-
-📄 **DNS Introduction and Traffic Analysis (Lab 7):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25207%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Domain Name System (DNS) protocol traffic reconstruction and forensic analysis. Inspected UDP/TCP port 53 packet flows, analyzed A, AAAA, MX, and TXT record lookup requests, evaluated authoritative server responses, and constructed hostname resolution timelines.
-
-📄 **DNS Spoofing Forensics (Lab 8):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25208%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Forensic investigation of DNS cache poisoning and rogue DNS response injection attacks. Detected malicious IP redirection signatures, analyzed forged transaction IDs, evaluated TTL anomalies, and documented unauthorized domain redirection events.
-
-📄 **WEP40 Wireless Packet Decryption and Aircrack Forensics (Lab 9):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25209%2520SBT-DF203%2520Garba.pdf)
-
-**Overview:** Wireless network forensics and 802.11 packet analysis. Captured encrypted IEEE 802.11 frames, analyzed initialization vector (IV) distribution patterns, executed cryptographic passphrase recovery using `aircrack-ng`, and decrypted WEP40 traffic streams to reconstruct underlying plaintext network payloads.k-ng`, and decrypted WEP40 traffic streams to reconstruct underlying plaintext network payloads.
-
----
 
 ### Course 4: Computer Forensics Case Study (SBT-DF204)
 
