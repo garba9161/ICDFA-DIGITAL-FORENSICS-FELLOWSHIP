@@ -87,7 +87,7 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 **Overview:** Automated packet analysis and denial-of-service (DoS) forensic investigation using command-line TShark. Isolated TCP SYN flood attack patterns, evaluated half-open socket state metrics, analyzed source IP spoofing signatures, and filtered high-volume packet streams to construct incident timelines and impact assessments.
 
-📄 **SMTP Email Traffic Forensics (Lab 4):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25204%2520SBT-DF203%2520Garba.pdf)
+📄 **SMTP Email Traffic Forensics (Lab 4):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab4_SBT-DF203.pdf)
 
 **Overview:** Deep packet inspection of Simple Mail Transfer Protocol (SMTP) traffic streams. Reconstructed email headers (`Received`, `From`, `To`, `Message-ID`), extracted MIME-encoded attachments, analyzed mail relay hops, and verified email sender authentication parameters from raw network communications.
 
