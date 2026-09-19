@@ -91,11 +91,11 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 **Overview:** Deep packet inspection of Simple Mail Transfer Protocol (SMTP) traffic streams. Reconstructed email headers (`Received`, `From`, `To`, `Message-ID`), extracted MIME-encoded attachments, analyzed mail relay hops, and verified email sender authentication parameters from raw network communications.
 
-📄 **ARP Poisoning Forensics (Lab 5):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25205%2520SBT-DF203%2520Garba.pdf)
+📄 **ARP Poisoning Forensics (Lab 5):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab5_SBT-DF203.pdf)
 
 **Overview:** Forensic analysis of Address Resolution Protocol (ARP) spoofing and Man-in-the-Middle (MitM) network attacks. Identified gratuitous ARP packet floods, mapped IP-to-MAC mapping discrepancies, detected duplicate MAC address anomalies, and documented session interception timelines across local subnets.
 
-📄 **Firewall Traffic Control and Forensic Verification (Lab 6):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25206%2520SBT-DF203%2520Garba.pdf)
+📄 **Firewall Traffic Control and Forensic Verification (Lab 6):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab6_SBT-DF203.pdf)
 
 **Overview:** Inspection and verification of network packet filtering mechanisms and firewall log streams. Analyzed active connection tracking tables, evaluated dropped vs. accepted packet flags, verified stateful packet inspection rules, and correlated system firewall logs with raw network packet captures.
 
