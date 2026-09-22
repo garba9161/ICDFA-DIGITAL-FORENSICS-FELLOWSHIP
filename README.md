@@ -99,7 +99,7 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 **Overview:** Inspection and verification of network packet filtering mechanisms and firewall log streams. Analyzed active connection tracking tables, evaluated dropped vs. accepted packet flags, verified stateful packet inspection rules, and correlated system firewall logs with raw network packet captures.
 
-📄 **DNS Introduction and Traffic Analysis (Lab 7):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25207%2520SBT-DF203%2520Garba.pdf)
+📄 **DNS Introduction and Traffic Analysis (Lab 7):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab7_SBT-DF203.pdf)
 
 **Overview:** Domain Name System (DNS) protocol traffic reconstruction and forensic analysis. Inspected UDP/TCP port 53 packet flows, analyzed A, AAAA, MX, and TXT record lookup requests, evaluated authoritative server responses, and constructed hostname resolution timelines.
 
