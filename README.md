@@ -103,7 +103,7 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 **Overview:** Domain Name System (DNS) protocol traffic reconstruction and forensic analysis. Inspected UDP/TCP port 53 packet flows, analyzed A, AAAA, MX, and TXT record lookup requests, evaluated authoritative server responses, and constructed hostname resolution timelines.
 
-📄 **DNS Spoofing Forensics (Lab 8):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25208%2520SBT-DF203%2520Garba.pdf)
+📄 **DNS Spoofing Forensics (Lab 8):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab8_SBT-DF203.pdf)
 
 **Overview:** Forensic investigation of DNS cache poisoning and rogue DNS response injection attacks. Detected malicious IP redirection signatures, analyzed forged transaction IDs, evaluated TTL anomalies, and documented unauthorized domain redirection events.
 
