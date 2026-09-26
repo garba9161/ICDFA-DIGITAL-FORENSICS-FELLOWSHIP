@@ -107,7 +107,7 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 **Overview:** Forensic investigation of DNS cache poisoning and rogue DNS response injection attacks. Detected malicious IP redirection signatures, analyzed forged transaction IDs, evaluated TTL anomalies, and documented unauthorized domain redirection events.
 
-📄 **WEP40 Wireless Packet Decryption and Aircrack Forensics (Lab 9):** [View Report](https://www.google.com/search?q=./Course-03-Basic-Networking-Skills/Reports/Lab%25209%2520SBT-DF203%2520Garba.pdf)
+📄 **WEP40 Wireless Packet Decryption and Aircrack Forensics (Lab 9):** [View Report](Course-03-Basic-Networking-Skills/Reports/Garba_Lab9_SBT-DF203.pdf)
 
 **Overview:** Here is the Markdown section formatted for **Course 03: Basic Networking Skills for Digital Forensics** to add directly into your `README.md`. Each entry matches your exact portfolio layout with relative file paths so the `View Report` links open your PDFs directly.
 
