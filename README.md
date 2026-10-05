@@ -116,7 +116,21 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 ### Course 4: Computer Forensics Case Study (SBT-DF204)
 
-*Module Status: Upcoming / In Progress*
+### Course 4: Computer Forensics Case Study (SBT-DF204)
+
+**Overview:**  
+Course 4 transitions from fundamental tool mechanics into scenario-driven, multi-vector digital investigations. The module focuses on end-to-end incident analysis—combining network traffic reconstruction, web browser database parsing, volatile memory triage, disk artifact correlation, and IoT telemetry forensics to establish complete timelines, establish root causes, and author courtroom-admissible case reports.
+
+* 📄 **Lab 01: Investigating Harassment Email Traffic With Wireshark** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Lab_01_Harassment_Email_Wireshark.pdf)
+  * **Overview:** Deep packet inspection and forensic reconstruction of email transmission streams associated with workplace harassment allegations. Involves packet filtering, TCP stream follow, sender IP identification, and extraction of raw message payloads/headers from `.pcap` packet captures.
+* 📄 **Lab 02: Reconstructing Chrome Web History** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Lab_02_Chrome_Web_History.pdf)
+  * **Overview:** Forensic analysis and parsing of Google Chrome SQLite artifacts (`History`, `Favicons`, `Shortcuts`). Focuses on extracting visited URLs, search queries, access timestamps (converted from WebKit/Epoch format), page transition types, and constructing web browsing timelines.
+* 📄 **Lab 03: Investigating Memory Evidence** *(Upcoming / Scheduled)*
+  * **Overview:** Volatile memory (RAM) triage and analysis using the Volatility 3 framework. Focuses on process tree analysis, identifying rogue/injected processes, unlinked DLLs, active network connections, and extracting memory-resident artifacts.
+* 📄 **Lab 04: Investigating Rhion Possession Evidence** *(Upcoming / Scheduled)*
+  * **Overview:** Digital evidence analysis and file system forensics regarding unauthorized possession and intellectual property theft. Includes `$MFT`/USN journal parsing, artifact extraction, deleted file recovery, and correlation of suspect file activity across user profiles.
+* 📄 **Lab 05: Investigating DJI Mavic Air Flight Evidence** *(Upcoming / Scheduled)*
+  * **Overview:** IoT and drone flight log forensics. Analysis of embedded flight DAT/TXT logs, extraction of GPS telemetry, flight paths, altitude profiles, launch/landing coordinates, and device hardware identification.
 
 📄 **End-to-End Incident Investigation & Forensic Case Study:** `[View Report]`
 
@@ -174,6 +188,11 @@ Core principles of digital investigations, evidence handling procedures, file sy
 │       └── Lab 9 SBT-DF203 Garba.pdf
 ├── Course-04-Computer-Forensics-Case-Study/
 │   └── Reports/
+│       ├── Lab_01_Harassment_Email_Wireshark.pdf
+│       ├── Lab_02_Chrome_Web_History.pdf
+│       ├── Lab_03_Memory_Evidence.pdf
+│       ├── Lab_04_Rhion_Possession_Evidence.pdf
+│       └── Lab_05_DJI_Mavic_Air_Flight_Evidence.pdf
 ├── Course-05-Mobile-IoT-Forensics/
 │   └── Reports/
 ├── Course-06-AI-For-Forensics/
