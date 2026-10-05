@@ -113,9 +113,6 @@ Core principles of digital investigations, evidence handling procedures, file sy
 
 ---
 
-
-### Course 4: Computer Forensics Case Study (SBT-DF204)
-
 ### Course 4: Computer Forensics Case Study (SBT-DF204)
 
 **Overview:**  
