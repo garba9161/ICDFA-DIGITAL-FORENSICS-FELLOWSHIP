@@ -118,7 +118,7 @@ Core principles of digital investigations, evidence handling procedures, file sy
 **Overview:**  
 Course 4 transitions from fundamental tool mechanics into scenario-driven, multi-vector digital investigations. The module focuses on end-to-end incident analysis—combining network traffic reconstruction, web browser database parsing, volatile memory triage, disk artifact correlation, and IoT telemetry forensics to establish complete timelines, establish root causes, and author courtroom-admissible case reports.
 
-* 📄 **Lab 01: Investigating Harassment Email Traffic With Wireshark** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Lab_01_Harassment_Email_Wireshark.pdf)
+* 📄 **Lab 01: Investigating Harassment Email Traffic With Wireshark** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Garba_2025_FWSD_11463_SBT-DF204_CaseStudy1.pdf)
   * **Overview:** Deep packet inspection and forensic reconstruction of email transmission streams associated with workplace harassment allegations. Involves packet filtering, TCP stream follow, sender IP identification, and extraction of raw message payloads/headers from `.pcap` packet captures.
 * 📄 **Lab 02: Reconstructing Chrome Web History** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Lab_02_Chrome_Web_History.pdf)
   * **Overview:** Forensic analysis and parsing of Google Chrome SQLite artifacts (`History`, `Favicons`, `Shortcuts`). Focuses on extracting visited URLs, search queries, access timestamps (converted from WebKit/Epoch format), page transition types, and constructing web browsing timelines.
