@@ -122,9 +122,9 @@ Course 4 transitions from fundamental tool mechanics into scenario-driven, multi
   * **Overview:** Deep packet inspection and forensic reconstruction of email transmission streams associated with workplace harassment allegations. Involves packet filtering, TCP stream follow, sender IP identification, and extraction of raw message payloads/headers from `.pcap` packet captures.
 * 📄 **Lab 02: Reconstructing Chrome Web History** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Lab_02_Chrome_Web_History.pdf)
   * **Overview:** Forensic analysis and parsing of Google Chrome SQLite artifacts (`History`, `Favicons`, `Shortcuts`). Focuses on extracting visited URLs, search queries, access timestamps (converted from WebKit/Epoch format), page transition types, and constructing web browsing timelines.
-* 📄 **Lab 03: Investigating Memory Evidence** *(Upcoming / Scheduled)*
+* 📄 **Lab 03: Investigating Memory Evidence** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Garba_2025_FWSD_11463_SBT-DF204_CaseStudy3.pdf)
   * **Overview:** Volatile memory (RAM) triage and analysis using the Volatility 3 framework. Focuses on process tree analysis, identifying rogue/injected processes, unlinked DLLs, active network connections, and extracting memory-resident artifacts.
-* 📄 **Lab 04: Investigating Rhion Possession Evidence** *(Upcoming / Scheduled)*
+* 📄 **Lab 04: Investigating Rhion Possession Evidence** [View Report](Course-04-Computer-Forensics-Case-Study/Reports/Garba_2025_FWSD_11463_SBT-DF204_CaseStudy4.pdf)
   * **Overview:** Digital evidence analysis and file system forensics regarding unauthorized possession and intellectual property theft. Includes `$MFT`/USN journal parsing, artifact extraction, deleted file recovery, and correlation of suspect file activity across user profiles.
 * 📄 **Lab 05: Investigating DJI Mavic Air Flight Evidence** *(Upcoming / Scheduled)*
   * **Overview:** IoT and drone flight log forensics. Analysis of embedded flight DAT/TXT logs, extraction of GPS telemetry, flight paths, altitude profiles, launch/landing coordinates, and device hardware identification.
