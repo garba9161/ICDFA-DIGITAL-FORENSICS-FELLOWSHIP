@@ -137,7 +137,13 @@ Course 4 transitions from fundamental tool mechanics into scenario-driven, multi
 
 ### Course 5: Mobile and IoT Forensics Case Study (SBT-DF205)
 
-*Module Status: Upcoming / In Progress*
+**Overview:**  
+Course 5 focuses on advanced mobile device forensics and embedded IoT artifact analysis across major mobile operating systems. The module covers physical and logical extraction techniques, flash memory file system parsing, SQLite database decryption, location artifact extraction, and cloud-synced app data reconstruction to trace user activity and build chronological mobile forensic timelines.
+
+- 📄 **Lab 01: Android Forensics Investigation of a Google Pixel 3** [View Report](Course-05-Mobile-And-IoT-Forensics-Case-Study/Reports/Garba_2025_FWSD_11463_SBT-DF205_CaseStudy1.pdf)
+  * **Overview:** Comprehensive forensic analysis of a physical/logical Android extraction. Focuses on parsing Android file system artifacts (`/data/data/`), extracting app databases (WhatsApp, SMS, Call Logs), recovering deleted messaging threads, decoding `mmssms.db`, and analyzing Google location history (`location.db` / GPS telemetry).
+- 📄 **Lab 02: iOS Forensics: iPhone Evidence Investigation** [View Report](Course-05-Mobile-And-IoT-Forensics-Case-Study/Reports/Garba_2025_FWSD_11463_SBT-DF205_CaseStudy2.pdf)
+  * **Overview:** Forensic triage and artifact extraction from an iOS device backup/image. Involves analyzing key plist files (`manifest.plist`, `Info.plist`), parsing SQLite databases for system apps (iMessage `sms.db`, Safari history, Contacts), decoding Cocoa Core Data timestamps, and reconstructing application interaction logs.
 
 📄 **Mobile & Smart Device Artifact Analysis:** `[View Report]`
 
@@ -192,6 +198,8 @@ Course 4 transitions from fundamental tool mechanics into scenario-driven, multi
 │       └── Lab_05_DJI_Mavic_Air_Flight_Evidence.pdf
 ├── Course-05-Mobile-IoT-Forensics/
 │   └── Reports/
+│       ├── Lab_01_Android_Forensics_Google_Pixel_3.pdf
+│       └── Lab_02_iOS_Forensics_iPhone_Evidence.pdf
 ├── Course-06-AI-For-Forensics/
 │   └── Reports/
 └── README.md
